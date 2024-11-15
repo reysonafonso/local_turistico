@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open sans", serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
+.description {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.description_image img {
+    height: 100%;
+}
+
+
+.subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic; /* Muda estilo da fonte para itálico */
+    text-align: center;
+    color: #333333;
+    margin-top: 24px;
+  }
+
+#page {
+    box-sizing: border-box;
+    width: 1280px;
+    padding: 24px;
+    margin: 48px auto;
+}
+
+main div img {
+    height: 375px;
+    object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+    margin-top: 40px;
+}
+
+img {
+    border-radius: 28px;
+    width: 100%;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 64px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 36px 0;
+    background-color: #d9d9d9;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+.headline {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold; /* a fonte fica em negrito */
+    color: #e1624f;
+    text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+h1, h2 {
+    margin-bottom: 4px;
+}
+
+ol {
+    padding-left: 24px;
+}
+
+ol li::marker {
+    color: #333333;
+}
+
+.content_list {
+    margin-top: 40px;
+}
+
+
+.list {
+    margin-top: 48px;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+footer img {
+    height: 14px;
+    vertical-align: middle;
+}
+
+footer .creditos {
+    margin-top: 20px;
+}
